@@ -8,3 +8,4 @@ clean :
 	rm -f url2file
 	rm -f bing
 	rm -f lex.yy.c
+	rm -f *.jpg

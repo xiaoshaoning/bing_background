@@ -4,6 +4,7 @@ bing url2file : bing.l url2file.c
 	gcc url2file.c -I/usr/include/ -lcurl -o url2file
 test :
 	./bing.sh
+	./bing_cn.sh
 clean :
 	rm -f url2file
 	rm -f bing
